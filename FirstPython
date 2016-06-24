@@ -1,0 +1,6 @@
+h = 'hello,world!'    //声明字符串为h
+for i in range(1,10):
+    print(h*i)        //每迭代到一个数值则重复输出该数值的字符串
+nums = [21,43,32,54,56,565,76,23,655,43,42,34]    //声明一个列表为nums
+nums.sort(reverse=True)                       //对nums列表进行降序的形式排序
+print(nums)
